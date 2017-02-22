@@ -10,7 +10,7 @@ create table users (
   last_name varchar(128),
   api_key varchar(128) not null unique,
   created_at timestamp not null default current_timestamp
-);
+); 
 
 create table contests (
   id serial primary key,
